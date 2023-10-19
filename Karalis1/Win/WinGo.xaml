@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Karalis1.Win"
         mc:Ignorable="d"
-        Title="Личный кабинет" Height="450" Width="800"
+        Title="Личный кабинет" Height="500" Width="750"
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -77,7 +77,7 @@
                 Height="50" Width="50"
                 FontSize="10"
                 HorizontalAlignment="Right"
-                VerticalAlignment="Top" Opacity="0.98">
+                VerticalAlignment="Top" Opacity="0.98" Click="BMainMenu_Click">
             <Image Source="/Image/img2.png"/>
         </Button>
     </Grid>

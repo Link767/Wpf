@@ -23,8 +23,8 @@ namespace Karalis1.Win
 
         private void BOut_Click(object sender, RoutedEventArgs e)
         {
-            WinAvto winAvto = new WinAvto();
-            winAvto.Show();
+            OutputOptions outputOptions = new OutputOptions();
+            outputOptions.Show();
             this.Close();
         }
 
@@ -32,6 +32,13 @@ namespace Karalis1.Win
         {
             RewPas rewPas = new RewPas();
             rewPas.Show();
+            this.Close();
+        }
+
+        private void BMainMenu_Click(object sender, RoutedEventArgs e)
+        {
+            MainWin mainWin = new MainWin();
+            mainWin.Show();
             this.Close();
         }
     }

@@ -1,0 +1,35 @@
+﻿<Window x:Class="Karalis1.Win.OutputOptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Karalis1.Win"
+        mc:Ignorable="d"
+        Title="Варианты выхода" Height="700" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Out"
+                Grid.Row="1"
+                Margin="20 20 20 20"
+                VerticalAlignment="Bottom"
+                Height="30" Width="250"
+                Content="Вйти"
+                FontSize="20"
+                Background="Red" Click="Out_Click"/>
+
+        <Button x:Name="Avtorization"
+                Grid.Row="2"
+                Margin="20 20 20 20"
+                VerticalAlignment="Top"
+                Height="30" Width="250"
+                Content="Авторизация"
+                FontSize="20"
+                Background="Green" Click="Avtorization_Click"/>
+    </Grid>
+</Window>

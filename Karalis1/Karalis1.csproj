@@ -59,6 +59,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Win\MainWin.xaml.cs">
+      <DependentUpon>MainWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Win\OutputOptions.xaml.cs">
+      <DependentUpon>OutputOptions.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Win\RewPas.xaml.cs">
       <DependentUpon>RewPas.xaml</DependentUpon>
     </Compile>
@@ -99,6 +105,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Win\MainWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Win\OutputOptions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Win\RewPas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
