@@ -24,6 +24,13 @@ namespace Karalis1.Win
 
         private void BRegEnd_Click(object sender, RoutedEventArgs e)
         {
+            WinGo winGo = new WinGo();
+            winGo.Show();
+            this.Close();
+        }
+
+        private void BOut_Click(object sender, RoutedEventArgs e)
+        {
             WinAvto winAvto = new WinAvto();
             winAvto.Show();
             this.Close();

@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Karalis1.Win
 {
-    /// <summary>
-    /// Логика взаимодействия для RewPas.xaml
-    /// </summary>
     public partial class RewPas : Window
     {
         public RewPas()

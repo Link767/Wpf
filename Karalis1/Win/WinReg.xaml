@@ -112,12 +112,19 @@
             FontSize="20"/>
 
         <Button x:Name="BRegEnd"
-            Grid.Row="7" Grid.Column="1"
-            Grid.ColumnSpan="4"
-            Content="Завершить регистрацияю"
-            Margin="20 0 20 0"
-            Height="40"
-            FontSize="20"
+            Grid.Row="7" Grid.Column="3"
+            Content="Завершить"
+            Margin="20 40 20 0"
+            Height="25"
+            FontSize="15"
             Background="DarkSeaGreen" Click="BRegEnd_Click"/>
+        
+        <Button x:Name="BOut"
+            Grid.Row="7" Grid.Column="1"
+            Content="Назад"
+            Margin="20 40 20 0"
+            Height="25"
+            FontSize="15"
+            Background="IndianRed" Click="BOut_Click"/>
     </Grid>
 </Window>

@@ -34,27 +34,27 @@
             FontSize="25"
             VerticalAlignment="Top"
             HorizontalAlignment="Left"/>
-        
+
         <TextBlock Grid.Row="2" Grid.Column="1"
             Text="Ваша почта:"
             FontWeight="DemiBold"
             FontSize="12"
             VerticalAlignment="Top"
             HorizontalAlignment="Left"/>
-        
+
         <TextBlock Grid.Row="2" Grid.Column="1"
             Text="Имя:"
             FontWeight="DemiBold"
             FontSize="12"
             VerticalAlignment="Center"
             HorizontalAlignment="Left"/>
-        
+
         <TextBlock Grid.Row="2" Grid.Column="1"
              Text="Фомилия:"
              FontSize="12"
              VerticalAlignment="Bottom"
              HorizontalAlignment="Left"/>
-        
+
         <Button Grid.Row="7" Grid.Column="3"
              x:Name="BOut"
              Content="Выйти"
@@ -62,7 +62,7 @@
              Height="20"
              Background="PaleVioletRed"
              FontSize="13" Click="BOut_Click"/>
-        
+
         <Button Grid.Row="7" Grid.Column="1"
               x:Name="BResPas"
               Content="Сменить пароль"
@@ -70,5 +70,15 @@
               Height="20"
               Background="DarkSeaGreen"
               FontSize="13" Click="BResPas_Click"/>
+
+        <Button Grid.Row="1" Grid.Column="3"
+                x:Name="BMainMenu"
+                Margin="0,0,20,0"
+                Height="50" Width="50"
+                FontSize="10"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top" Opacity="0.98">
+            <Image Source="/Image/img2.png"/>
+        </Button>
     </Grid>
 </Window>
