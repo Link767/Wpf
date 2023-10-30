@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace Karalis1.Win
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWin.xaml
-    /// </summary>
     public partial class MainWin : Window
     {
         public MainWin()
@@ -28,6 +25,27 @@ namespace Karalis1.Win
         {
             WinGo winGo = new WinGo();
             winGo.Show();
+            this.Close();
+        }
+
+        private void StudList_Click(object sender, RoutedEventArgs e)
+        {
+           StudentList studentList = new StudentList(); 
+           studentList.Show();
+           this.Close();
+        }
+
+        private void TeashList_Click(object sender, RoutedEventArgs e)
+        {
+            TeachList teashList = new TeachList();
+            teashList.Show();
+            this.Close();
+        }
+
+        private void WorkList_Click(object sender, RoutedEventArgs e)
+        {
+            WorkList workList = new WorkList(); 
+            workList.Show();
             this.Close();
         }
     }

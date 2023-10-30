@@ -24,8 +24,14 @@
         <Menu x:Name="Menu"
               Grid.Column="0" Grid.Row="0"
               Grid.ColumnSpan="4">
-            <MenuItem x:Name="MI"
+            <MenuItem x:Name="IMenu"
                       Header="Меню">
+                <MenuItem x:Name="StudList"
+                          Header="Список студентов" Click="StudList_Click"/>
+                <MenuItem x:Name="TeashList"
+                          Header="Список преподователей" Click="TeashList_Click"/>
+                <MenuItem x:Name="WorkList"
+                          Header="Список сотрудников" Click="WorkList_Click"/>
             </MenuItem>
             <MenuItem x:Name="MIGo"
                       Header="Личный кабинет" Click="MIGo_Click"/>
